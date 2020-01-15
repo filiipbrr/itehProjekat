@@ -110,7 +110,7 @@ require "admin/template/header.php"; ?>
                   <div class="form-group">
                     <label class="col-sm-2 control-label"></label>
                     <div class="col-sm-8">
-                      <button type="submit" name="sacuvaj" class="btn btn-success">Sačuvaj izmene</button>
+                      <button type="submit" name="sacuvaj" class="btn btn-success">Sačuvaj izmene.</button>
                     </div>
                   </div>
                   <br>
