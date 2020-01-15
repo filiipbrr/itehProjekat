@@ -23,7 +23,7 @@
       <img src="img/book2.jpg" alt="books2">
     </div>
     <div class="item">
-      <img src="img/book3.jpg" alt="books3">
+      <img src="img/book3.jpg" alt="books3"> 
     </div>
     <div class="item">
       <img src="img/book4.jpg" alt="books4">
