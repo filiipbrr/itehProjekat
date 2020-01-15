@@ -20,7 +20,7 @@ require 'php/config.php'; ?>
   if (isset($_SESSION['username']) && !empty($_SESSION['username'])) {
       ?>
        <div class="login">
-      <h2 style='color: #fff';>Dobro došli <?php echo $_SESSION['username'] ?> !</h2>
+      <h2 style='color: #fff';>Dobro došli<?php echo $_SESSION['username'] ?> !</h2>
     </div>
     <br>  
 <?php
