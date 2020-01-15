@@ -21,7 +21,7 @@ require "admin/template/header.php";
           </div>
 		  <div class="col-sm-5" style="padding-bottom:330px">
 
-            <h2> Dobro došli, <?php echo $_SESSION['username'] ?>, izaberite neku od opcija za ažuriranje sadržaja sajta! </h2>
+            <h2> Dobro došli <?php echo $_SESSION['username'] ?>,  izaberite neku od opcija za ažuriranje sadržaja sajta! </h2>
 
         </div>
             
