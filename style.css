@@ -1,6 +1,6 @@
 #main_body
 {
-  background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+  background-image: linear-gradient(to top,rgb(90, 90, 223) 0%,rgb(90, 90, 223) 100%);
     background-size:100%;
     overflow-x: hidden;
 }
@@ -33,7 +33,7 @@ text-decoration: none;
 body
 {
   margin: 0;
-background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+background-image: linear-gradient(to top, rgb(90, 90, 223) 0%, rgb(90, 90, 223) 100%);
   background-size:100% auto;
   overflow-x: hidden;
 }
@@ -42,6 +42,24 @@ background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
 {
     margin-left: -15px;
     margin-right: -15px;
+    
+}
+
+.thumbnail{
+ 
+  background: linear-gradient(#1f2ac0,#1f2ac0);
+  
+}
+
+.caption{
+ 
+  background: linear-gradient(#1f2ac0,#1f2ac0);
+
+}
+.post_title{
+ 
+  background: linear-gradient(#1f2ac0,#1f2ac0);
+
 }
 
 .col-xs-12
@@ -61,7 +79,7 @@ background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
   position: sticky;
     bottom:0;
     margin-top: -150px;
-   background: linear-gradient(#fff,#595959);
+   background: linear-gradient(#1f2ac0,#1f2ac0);
    text-decoration:inherit;
    font-size: 14px;
    font-style: oblique;
@@ -115,13 +133,13 @@ a
 
 a:hover
 {
-  color:#0f0c11;
+  color:#000000;
 }
 
 a:link
 {
 	text-decoration: none;
-  color: #0f0c11;
+  color: #000000;
 }
 
 .carousel-inner > .item > img
@@ -184,7 +202,7 @@ h2
 
 .post_body
 {
-  background: linear-gradient( #595959,#fff);
+  background: linear-gradient( #1f2ac0,#1f2ac0);
   border-radius: 8px;
   text-align: justify;
 }
@@ -230,12 +248,12 @@ height:533px;
 
 #carousel-example-generic
 {
-  background-image: linear-gradient(-225deg, #7DE2FC 0%, #B9B6E5 100%)!important;
+  background-image: linear-gradient(-225deg, #1f2ac0, #1f2ac0 100%)!important;
 }
 
 .thumbnail
 {
-  background-image: linear-gradient(-225deg, #7DE2FC 0%, #B9B6E5 100%)!important;
+  background-image: linear-gradient(-225deg, #1f2ac0 0%, #1f2ac0 100%)!important;
   border-radius: 8px;
   border:0px;
 }
@@ -293,8 +311,8 @@ display: inline;
 
 .datagrid table thead th
 {
-	background: #595959;
-color: #ffffff;;
+	background: #000000;
+  color: #ffffff;
 	font-size: 15px;
 	font-weight: bold;
   text-align: center;
@@ -305,8 +323,8 @@ color: #ffffff;;
 .datagrid table tbody td
 {
 	color: #404040;
-	border-right: 1px solid #bfbfbf;
-  border-bottom: 1px solid #bfbfbf;
+	border-right: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
 	font-size: 12px;
 }
 
@@ -336,7 +354,7 @@ color: #ffffff;;
 
 #main_footer
 {
-  background: linear-gradient(#fff,#595959);
+  background: linear-gradient(#1f2ac0,#1f2ac0);
  text-decoration:inherit;
  font-size: 14px;
  font-style: oblique;
